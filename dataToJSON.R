@@ -61,10 +61,11 @@ filings %>% filter(County_FIPS_code=="0") %>% count(County_name) %>% print(n=Inf
 # drop them.
 
 filings2 <- filings %>% 
+  # Added by Steve, rename DC to 001, keep the rest the same.  
   mutate(
     County_FIPS_code=case_when(
-      State=="DC"~"001",
-      TRUE~County_FIPS_code
+      State == "DC" ~ "001",
+      TRUE ~ County_FIPS_code
     )
   ) %>%
   filter(!is.na(County_FIPS_code) & County_FIPS_code!="0") %>%

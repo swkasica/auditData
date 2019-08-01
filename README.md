@@ -2,6 +2,10 @@
 
 This repo contains the data and scripts behind ["Where in The U.S. Are You Most Likely to Be Audited by the IRS?"](https://projects.propublica.org/graphics/eitc-audit) published April 1, 2019.
 
+## Steve's Notes
+
+This R script combines data on the number of tax return audits with the number of tax returns filed. 
+
 
 ## About
 
