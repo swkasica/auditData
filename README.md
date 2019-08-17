@@ -6,6 +6,8 @@ This repo contains the data and scripts behind ["Where in The U.S. Are You Most 
 
 This R script combines data on the number of tax return audits with the number of tax returns filed. 
 
+![workflow](workflow.jpg)
+
 
 ## About
 
